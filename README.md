@@ -21,6 +21,37 @@
 - [How to use both GraphQL and REST over the same API](#how-to-use-both-graphql-and-rest-over-the-same-api)
 - [Summary of differences: REST vs GraphQL](#summary-of-differences-rest-vs-graphql)
 - [How can AWS support your GraphQL and REST requirements?](#how-can-aws-support-your-graphql-and-rest-requirements)
+- Architecture Patterns
+
+  - [GraphQL](#graphql)
+
+    - [Introduction](https://graphql.org/learn/)
+
+    - [Queries and Mutations](https://graphql.org/learn/queries/)
+
+      - [Fields](https://graphql.org/learn/queries/#fields)
+      - [Arguments](https://graphql.org/learn/queries/#arguments)
+      - [Aliases](https://graphql.org/learn/queries/#aliases)
+      - [Fragments](https://graphql.org/learn/queries/#fragments)
+      - [Operation name](https://graphql.org/learn/queries/#operation-name)
+      - [Variables](https://graphql.org/learn/queries/#variables)
+      - [Directives](https://graphql.org/learn/queries/#directives)
+      - [Mutations](https://graphql.org/learn/queries/#mutations)
+      - [Inline Fragments](https://graphql.org/learn/queries/#inline-fragments)
+
+    - [Schemas and Types](https://graphql.org/learn/schema/)
+
+      - [Type system](https://graphql.org/learn/schema/#type-system)
+      - [Type language](https://graphql.org/learn/schema/#type-language)
+      - [Object types and fields](https://graphql.org/learn/schema/#object-types-and-fields)
+      - [Arguments](https://graphql.org/learn/schema/#arguments)
+      - [The Query and Mutation types](https://graphql.org/learn/schema/#the-query-and-mutation-types)
+      - [Scalar types](https://graphql.org/learn/schema/#scalar-types)
+      - [Enumeration types](https://graphql.org/learn/schema/#enumeration-types)
+      - [Lists and Non-Null](https://graphql.org/learn/schema/#lists-and-non-null)
+      - [Interfaces](https://graphql.org/learn/schema/#interfaces)
+      - [Union types](https://graphql.org/learn/schema/#union-types)
+      - [Input types](https://graphql.org/learn/schema/#input-types)
 
 Sources:
 
@@ -268,3 +299,5 @@ Here are ways you can benefit by using API Gateway:
     - Authorize access to your APIs
     - Run multiple versions of the same API simultaneously to quickly iterate, test, and release new versions
     - Monitor performance metrics and information about API calls, data latency, and error rates
+
+# GraphQL
